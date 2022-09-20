@@ -1,1 +1,8 @@
-numpy ==  
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+spacy
+tensorflow
+keras
