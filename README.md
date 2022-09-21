@@ -14,6 +14,3 @@ This Project is implemented on Google Colab. So, you can run the project on Goog
 
 #### Model 
 All the model saved in Saved_model folder. You can download the model and use it for your project.
-
-### Accuracy of the Model
-
