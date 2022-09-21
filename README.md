@@ -17,9 +17,3 @@ All the model saved in Saved_model folder. You can download the model and use it
 
 ### Accuracy of the Model
 
-This is for Brain tumor segmentation.
-![](Image/Brain.png)
-
-This is for Pneumonia segmentation.
-![](Image/Pneumonia.png)
-
