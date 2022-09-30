@@ -1,4 +1,4 @@
-# CSE498R
+# CSE498R / NASA Space App challenge 
 ### VGG19 Model implemented on tumor and Pneumonia segmentation.
 ![](Image/image_1.png)
 
