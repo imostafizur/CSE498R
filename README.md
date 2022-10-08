@@ -40,19 +40,19 @@ Pneumonia Segmentation VGG19 Resnet50 InceptionV3 InceptionResnetV2 Efficientnet
 | Model | Accuracy |
 | --- | --- |
 | VGG19 | 0.89 |
-| Resnet50 | 0.95 |
-| InceptionV3 | 0.95 |
-| InceptionResnetV2 | 0.91 |
-| Efficientnet | 0.95 |
+| Resnet50 | 0.90 |
+| InceptionV3 | 0.93 |
+| InceptionResnetV2 | 0.94 |
+| Efficientnet | 0.74 |
 
 Malariya Detection VGG19 Resnet50 InceptionV3 InceptionResnetV2 Efficientnet-B7
 | Model | Accuracy |
 | --- | --- |
-| VGG19 | 0.95 |
-| Resnet50 | 0.95 |
+| VGG19 | 0.50 |
+| Resnet50 | 0.94 |
 | InceptionV3 | 0.95 |
-| InceptionResnetV2 | 0.95 |
-| Efficientnet-B7 | 0.95 |
+| InceptionResnetV2 | 0.91 |
+| Efficientnet-B7 | 0.49 |
 
 
 
