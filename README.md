@@ -1,31 +1,11 @@
 # CSE498R
-### VGG19 Model 
-![](Image/image_1.png)
+### Brain Tumor Segmentation using MRI Images
+![](Image/Brain.gif)
+### Penumonia Detection using Chest X-Ray Images
+![](Image/Pneumonia.gif)
 
-### Resnet50 Model
-![](Image/image_2.png) 
-
-### InceptionV3 Model
-![](Image/image_3.png)
-
-### InceptionResnetV2 Model
-![](Image/image_4.png)
-
-### EfficientNetB7 Model
-![](Image/image_5.png)
-
-
-### Dependencies intallation
-```bash
-pip install -r requirements.txt
-```
-It will install all the dependencies required for the project.
-
-This Project is implemented on Google Colab. So, you can run the project on Google Colab. Select the GPU as the runtime type for faster execution.
-
-
-Drive : https://drive.google.com/drive/folders/1ejXG6JWSSG5t5MoXvti1hDmi4SVu5qEw?usp=sharing
-
+### Malariya Detection using Blood Cell Images
+![](Image/Malaria.gif)
 ### Model Accuracy Table 
 Tumor Segmentation VGG19 Resnet50 InceptionV3 InceptionResnetV2 Efficientnet-B7
 | Model | Accuracy |
@@ -54,11 +34,16 @@ Malariya Detection VGG19 Resnet50 InceptionV3 InceptionResnetV2 Efficientnet-B7
 | InceptionResnetV2 | 0.91 |
 | Efficientnet-B7 | 0.49 |
 
+### Dependencies intallation
 
+```bash
+pip install -r requirements.txt
+```
+* Python 3.10
+* Tensorflow 2.10
 
+It will install all the dependencies required for the project.
 
+This Project is implemented on Google Colab. So, you can run the project on Google Colab. Select the GPU as the runtime type for faster execution.
 
-
-
-
-
+Drive : <https://drive.google.com/drive/folders/1ejXG6JWSSG5t5MoXvti1hDmi4SVu5qEw?usp=sharing>
