@@ -1,4 +1,4 @@
-# CSE498R
+# CSE499A-499B-498R
 ### Brain Tumor Segmentation using MRI Images
 ![](Image/Brain.gif)
 ### Penumonia Detection using Chest X-Ray Images
