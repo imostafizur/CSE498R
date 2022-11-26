@@ -1,5 +1,5 @@
 # CSE499A-499B-498R-NASA Apace Apps Challenge
-## Awards: GLOBAL NOMINEES-![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png)
+## Awards: GLOBAL NOMINEES![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png)
 ### Brain Tumor Segmentation using MRI Images
 ![](Image/Brain.gif)
 ### Penumonia Detection using Chest X-Ray Images
