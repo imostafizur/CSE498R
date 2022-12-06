@@ -1,6 +1,6 @@
 ## CSE498R
 ### Predicting deasease using diagnosis data.
-#### Parkinson's Disease
+### Parkinson's Disease
 Parkinson's disease is a progressive disorder of the central nervous system that affects movement. Symptoms start gradually, sometimes starting with a barely noticeable tremor in just one hand. Tremors are common, but the disorder also commonly causes stiffness or slowing of movement.
 
 Algorithm used and its accuracy table is given below.
