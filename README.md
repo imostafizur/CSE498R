@@ -61,6 +61,24 @@ Algorithm used and its accuracy table is given below.
 |XGBoost|0.80|
 |Gradient Boosting|0.80|
 
+### LUNG Cancer
+Lung cancer is a type of cancer that starts in the lungs. The lungs are two spongy organs in the chest that take in oxygen when you breathe and release carbon dioxide when you exhale. Lung cancer can start in different parts of the lungs. The most common type of lung cancer is non-small cell lung cancer (NSCLC). NSCLC is divided into two main types: squamous cell carcinoma and adenocarcinoma. The other main type of lung cancer is small cell lung cancer (SCLC).
+
+| Algorithm | Accuracy |
+|-----------|----------|
+| QDA |0.91 |
+| KNN | 0.95|
+| SVM | 0.96 |
+| Decision tree| 0.95 |
+|LDA|0.96|
+|Naive Bayes algorithm|0.95|
+|K-means|0.46|
+|Random forest algorithm|0.96|
+|AdaBoost|0.98|
+|Neural-Network|0.95|
+|XGBoost|0.98|
+|Gradient Boosting|0.96|
+
 Dependencies
 ------------
 * Python 3.10
