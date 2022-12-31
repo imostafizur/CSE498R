@@ -11,14 +11,14 @@ Algorithm used and its accuracy table is given below.
 | KNN | 0.74 |
 | SVM | 0.83 |
 | logistic regression | 0.82 |
-|Linear regression|0000|
-|Naive Bayes algorithm|0000|
-|K-means|0000|
-|Random forest algorithm|0000|
-|AdaBoost|0000|
-|k-means clustering|0000|
-|XGBoost|0000|
-|Gradient Boosting|0000|
+|Linear regression|0.87|
+|Naive Bayes algorithm|0.86|
+|K-means|0.84|
+|Random forest algorithm|0.86|
+|AdaBoost0.96|
+|k-means clustering|0.96|
+|XGBoost|0.96|
+|Gradient Boosting|0.96|
 
 ### Diabetes
 Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesn’t make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn’t reach your cells.
