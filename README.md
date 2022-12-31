@@ -15,7 +15,7 @@ Algorithm used and its accuracy table is given below.
 |Naive Bayes algorithm|0.86|
 |K-means|0.84|
 |Random forest algorithm|0.86|
-|AdaBoost0.96|
+|AdaBoost|0.96|
 |k-means clustering|0.96|
 |XGBoost|0.96|
 |Gradient Boosting|0.96|
