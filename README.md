@@ -7,18 +7,18 @@ Algorithm used and its accuracy table is given below.
 
 | Algorithm | Accuracy |
 |-----------|----------|
-| Decision Tree | 0.79 |
-| KNN | 0.74 |
-| SVM | 0.83 |
-| logistic regression | 0.82 |
-|Linear regression|0000|
-|Naive Bayes algorithm|0000|
-|K-means|0000|
-|Random forest algorithm|0000|
-|AdaBoost|0000|
-|k-means clustering|0000|
-|XGBoost|0000|
-|Gradient Boosting|0000|
+| QDA |0.95 |
+| KNN | 0.70|
+| SVM | 0.95 |
+| Decision tree| 0.80 |
+|LDA|0.80|
+|Naive Bayes algorithm|0.80|
+|K-means|0.45|
+|Random forest algorithm|0.95|
+|AdaBoost|0.85|
+|LSTM|0.70|
+|XGBoost|0.85|
+|Gradient Boosting|0.85|
 
 ### Diabetes
 Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesn’t make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn’t reach your cells.
@@ -30,10 +30,10 @@ Algorithm used and its accuracy table is given below.
 | Decision Tree | 0.79 |
 | KNN | 0.74 |
 | SVM | 0.83 |
-| logistic regression | 0.82 |
-|Linear regression|Invalid|
-|Naive Bayes algorithm|80.05|
-|Lasso regression|Invalid|
+| QDA | 0.77 |
+|LDA|0.825|
+|Naive Bayes algorithm|0.80|
+| Decision tree|0.88|
 |Random forest algorithm|0.93|
 |AdaBoost|0.83|
 |k-means clustering|0.58|
@@ -51,16 +51,15 @@ Algorithm used and its accuracy table is given below.
 | Decision Tree | 0.79 |
 | KNN | 0.74 |
 | SVM | 0.83 |
-| logistic regression | 0.82 |
-|Linear regression|Invalid|
+| QDA | 0.84 |
+|LDA|0.84|
 |Naive Bayes algorithm|0.81|
-|Lasso regression |Invalid|
+|LSTM |0.81|
 |Random forest algorithm|0.82|
 |AdaBoost|0.79|
 |k-means clustering|0.80|
 |XGBoost|0.80|
 |Gradient Boosting|0.80|
-
 ### LUNG Cancer
 Lung cancer is a type of cancer that starts in the lungs. The lungs are two spongy organs in the chest that take in oxygen when you breathe and release carbon dioxide when you exhale. Lung cancer can start in different parts of the lungs. The most common type of lung cancer is non-small cell lung cancer (NSCLC). NSCLC is divided into two main types: squamous cell carcinoma and adenocarcinoma. The other main type of lung cancer is small cell lung cancer (SCLC).
 
