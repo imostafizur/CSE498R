@@ -32,7 +32,7 @@ Algorithm used and its accuracy table is given below.
 | SVM | 0.83 |
 | QDA | 0.77 |
 |LDA|0.825|
-|Naive Bayes algorithm|0.80|
+|Naive Bayes algorithm|80.05|
 | Decision tree|0.88|
 |Random forest algorithm|0.93|
 |AdaBoost|0.83|
