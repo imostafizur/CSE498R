@@ -78,6 +78,24 @@ Lung cancer is a type of cancer that starts in the lungs. The lungs are two spon
 |XGBoost|0.98|
 |Gradient Boosting|0.96|
 
+### Brain stroke 
+A stroke occurs when blood flow to an area of the brain is interrupted or reduced, depriving brain tissue of oxygen and nutrients. Brain cells begin to die within minutes. A stroke is a medical emergency, and prompt treatment is crucial. Early action can reduce brain damage and other complications.
+
+| Algorithm | Accuracy |
+|-----------|----------|
+| QDA |0.55 |
+| KNN | 0.97|
+| SVM | 0.77 |
+| Decision tree| 0.97 |
+|LDA|0.77|
+|Naive Bayes algorithm|0.64|
+|K-means|0.62|
+|Random forest algorithm|0.99|
+|AdaBoost|0.82|
+|LSTM|0.76|
+|XGBoost|0.97|
+|Gradient Boosting|0.84|
+
 Dependencies
 ------------
 * Python 3.10
