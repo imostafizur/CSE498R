@@ -100,8 +100,9 @@ Dependencies
 ------------
 * Python 3.10
 
-intallation
+Installation
 -----------
+
 command to install all the dependencies
 ```bash
 pip install -r requirements.txt
