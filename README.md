@@ -20,6 +20,34 @@ Algorithm used and its accuracy table is given below.
 |XGBoost|0.85|
 |Gradient Boosting|0.85|
 
+Best model is QDA and Random forest algorithm. Those model other parameters :
+
+#### SVM
+
+| Metric      | Score       |
+|-------------|-------------|
+| RMSE        | 0.2236068   |
+| MAE         | 0.05        |
+| Recall      | 0.8888889   |
+| Precision   | 1.0         |
+| F1          | 0.9411765   |
+| R2          | 0.7979798   |
+| k-fold Accuracy | 0.72 (+/- 0.38) |
+
+#### QDA
+
+| Metric      | Score       |
+|-------------|-------------|
+| RMSE        | 0.2236068   |
+| MAE         | 0.05        |
+| Recall      | 1.0         |
+| Precision   | 0.9         |
+| F1          | 0.9473684   |
+| R2          | 0.7979798   |
+| k-fold Accuracy | 0.80 (+/- 0.41) |
+
+So the model is QDA.
+
 ### Diabetes
 Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesn’t make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn’t reach your cells.
 
