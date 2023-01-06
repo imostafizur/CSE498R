@@ -51,7 +51,7 @@ So the model is QDA.
 ### Diabetes
 Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesn’t make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn’t reach your cells.
 
-Algorithm used and its accuracy table is given below.
+Algorithm  used and its accuracy table is given below.
 
 | Algorithm | Accuracy |
 |-----------|----------|
@@ -67,6 +67,30 @@ Algorithm used and its accuracy table is given below.
 |k-means clustering|0.58|
 |XGBoost|0.90|
 |Gradient Boosting|0.88|
+
+#### Random Forest Algorithm  
+
+| Metric       | Value         |
+| ------------ |:-------------:|
+| RMSE         | 0.3082207001484488 |
+| MAE          | 0.095 |
+| R2           | 0.6193910256410255 |
+| Recall       | 0.9519230769230769 |
+| Precision    | 0.8761061946902655 |
+| F1           | 0.9124423963133641 |
+|K- fold Accuracy| 86%|
+
+#### XGBOOST
+
+| Metric       | Value         |
+| ------------ |:-------------:|
+| RMSE         | 0.3082207001484488 |
+| MAE          | 0.095 |
+| R2           | 0.6193910256410255 |
+| Recall       | 0.9519230769230769 |
+| Precision    | 0.8761061946902655 |
+| F1           | 0.9124423963133641 |
+| K-Fold cross val | 82.37 % |
 
 
 ### Heart Disease
@@ -88,6 +112,27 @@ Algorithm used and its accuracy table is given below.
 |k-means clustering|0.80|
 |XGBoost|0.80|
 |Gradient Boosting|0.80|
+
+#### QDA
+| Metric | Value |
+|--------|-------|
+| RMSE   | 0.40488816508945796 |
+| MAE    | 0.16393442622950818 |
+| R2     | 0.33551198257080617 |
+| Recall | 0.9117647058823529 |
+| Precision | 0.8157894736842105 |
+| F1     | 0.861111111111111 |
+
+#### LDA
+| Metric | Value |
+|--------|-------|
+| RMSE   | 0.40488816508945796 |
+| MAE    | 0.16393442622950818 |
+| R2     | 0.33551198257080617 |
+| Recall | 0.9117647058823529 |
+| Precision | 0.8157894736842105 |
+| F1     | 0.861111111111111 |
+|K-fold|0.82 (+/- 0.12)|
 ### LUNG Cancer
 Lung cancer is a type of cancer that starts in the lungs. The lungs are two spongy organs in the chest that take in oxygen when you breathe and release carbon dioxide when you exhale. Lung cancer can start in different parts of the lungs. The most common type of lung cancer is non-small cell lung cancer (NSCLC). NSCLC is divided into two main types: squamous cell carcinoma and adenocarcinoma. The other main type of lung cancer is small cell lung cancer (SCLC).
 
