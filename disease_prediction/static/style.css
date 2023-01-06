@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.grid{
+    display: grid;
+    place-items: center;
+}
+
+#btp {
+    height: 500px;
+    background-image: url('/static/images/biography-bg.png');
+  }
+
+  #disease-select {
+    height: 650px;
+    background-image: url('/static/images/circle.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+  }
