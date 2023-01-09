@@ -5,20 +5,20 @@ Parkinson's disease is a progressive disorder of the central nervous system that
 
 Algorithm used and its accuracy table is given below.
 
-| Algorithm | Accuracy |
-|-----------|----------|
-| QDA |0.95 |
-| KNN | 0.70|
-| SVM | 0.95 |
-| Decision tree| 0.80 |
-|LDA|0.80|
-|Naive Bayes algorithm|0.80|
-|K-means|0.45|
-|Random forest algorithm|0.95|
-|AdaBoost|0.85|
-|LSTM|0.70|
-|XGBoost|0.85|
-|Gradient Boosting|0.85|
+| Algorithm | Accuracy | K-Fold    | RMSE     |MAE        | R2       |    Recall |Precision |F1|
+|-----------|----------|-----------|----------|-----------|----------|-----------|----------|--|
+| QDA       |0.95 |           |          |           |          |           |          |  |
+| KNN | 0.70|           |          |           |          |           |          |  |
+| SVM | 0.95 |           |          |           |          |           |          |  |
+| Decision tree| 0.80 |           |          |           |          |           |          |  |
+|LDA|0.80|           |          |           |          |           |          |  |
+|Naive Bayes algorithm|0.80|           |          |           |          |           |          |  |
+|K-means|0.45|           |          |           |          |           |          |  |
+|Random forest algorithm|0.95|           |          |           |          |           |          |  |
+|AdaBoost|0.85|           |          |           |          |           |          |  |
+|LSTM|0.70|           |          |           |          |           |          |  |
+|XGBoost|0.85|           |          |           |          |           |          |  |
+|Gradient Boosting|0.85|           |          |           |          |           |          |  |
 
 Best model is QDA and Random forest algorithm. Those model other parameters :
 
@@ -53,20 +53,20 @@ Diabetes is a disease that occurs when your blood glucose, also called blood sug
 
 Algorithm  used and its accuracy table is given below.
 
-| Algorithm | Accuracy |
-|-----------|----------|
-| Decision Tree | 0.79 |
-| KNN | 0.74 |
-| SVM | 0.83 |
-| QDA | 0.77 |
-|LDA|0.825|
-|Naive Bayes algorithm|0.80|
-| Decision tree|0.88|
-|Random forest algorithm|0.93|
-|AdaBoost|0.83|
-|k-means clustering|0.58|
-|XGBoost|0.90|
-|Gradient Boosting|0.88|
+| Algorithm | Accuracy | K-Fold    | RMSE     |MAE        | R2       |    Recall |Precision |F1|
+|-----------|----------|-----------|----------|-----------|----------|-----------|----------|--|
+| Decision Tree | 0.79 |           |          |           |          |           |          |  |
+| KNN | 0.74 |           |          |           |          |           |          |  |
+| SVM | 0.83 |           |          |           |          |           |          |  |
+| QDA | 0.77 |           |          |           |          |           |          |  |
+|LDA|0.825|           |          |           |          |           |          |  |
+|Naive Bayes algorithm|0.80|           |          |           |          |           |          |  |
+| Decision tree|0.88|           |          |           |          |           |          |  |
+|Random forest algorithm|0.93|           |          |           |          |           |          |  |
+|AdaBoost|0.83|           |          |           |          |           |          |  |
+|k-means clustering|0.58|           |          |           |          |           |          |  |
+|XGBoost|0.90|           |          |           |          |           |          |  |
+|Gradient Boosting|0.88|           |          |           |          |           |          |  |
 
 #### Random Forest Algorithm  
 
@@ -98,20 +98,20 @@ Heart disease is a general term that describes several types of heart conditions
 
 Algorithm used and its accuracy table is given below.
 
-| Algorithm | Accuracy |
-|-----------|----------|
-| Decision Tree | 0.79 |
-| KNN | 0.74 |
-| SVM | 0.83 |
-| QDA | 0.84 |
-|LDA|0.84|
-|Naive Bayes algorithm|0.81|
-|LSTM |0.81|
-|Random forest algorithm|0.82|
-|AdaBoost|0.79|
-|k-means clustering|0.80|
-|XGBoost|0.80|
-|Gradient Boosting|0.80|
+| Algorithm | Accuracy | K-Fold    | RMSE     |MAE        | R2       |    Recall |Precision |F1|
+|-----------|----------|-----------|----------|-----------|----------|-----------|----------|--|
+| Decision Tree | 0.79 |          |          |           |          |           |          |  |
+| KNN | 0.74 |          |          |           |          |           |          |  |
+| SVM | 0.83 |          |          |           |          |           |          |  |
+| QDA | 0.84 |          |          |           |          |           |          |  |
+|LDA|0.84|          |          |           |          |           |          |  |
+|Naive Bayes algorithm|0.81|          |          |           |          |           |          |  |
+|LSTM |0.81|          |          |           |          |           |          |  |
+|Random forest algorithm|0.82|          |          |           |          |           |          |  |
+|AdaBoost|0.79|          |          |           |          |           |          |  |
+|k-means clustering|0.80|          |          |           |          |           |          |  |
+|XGBoost|0.80|          |          |           |          |           |          |  |
+|Gradient Boosting|0.80|          |          |           |          |           |          |  |
 
 #### QDA
 | Metric | Value |
@@ -136,38 +136,38 @@ Algorithm used and its accuracy table is given below.
 ### LUNG Cancer
 Lung cancer is a type of cancer that starts in the lungs. The lungs are two spongy organs in the chest that take in oxygen when you breathe and release carbon dioxide when you exhale. Lung cancer can start in different parts of the lungs. The most common type of lung cancer is non-small cell lung cancer (NSCLC). NSCLC is divided into two main types: squamous cell carcinoma and adenocarcinoma. The other main type of lung cancer is small cell lung cancer (SCLC).
 
-| Algorithm | Accuracy |
-|-----------|----------|
-| QDA |0.91 |
-| KNN | 0.95|
-| SVM | 0.96 |
-| Decision tree| 0.95 |
-|LDA|0.96|
-|Naive Bayes algorithm|0.95|
-|K-means|0.46|
-|Random forest algorithm|0.96|
-|AdaBoost|0.98|
-|Neural-Network|0.95|
-|XGBoost|0.98|
-|Gradient Boosting|0.96|
+| Algorithm | Accuracy | K-Fold    | RMSE     |MAE        | R2       |    Recall |Precision |F1|
+|-----------|----------|-----------|----------|-----------|----------|-----------|----------|--|
+| QDA |0.91 |           |          |           |          |           |          |  |
+| KNN | 0.95|           |          |           |          |           |          |  |
+| SVM | 0.96 |           |          |           |          |           |          |  |
+| Decision tree| 0.95 |           |          |           |          |           |          |  |
+|LDA|0.96|           |          |           |          |           |          |  |
+|Naive Bayes algorithm|0.95|           |          |           |          |           |          |  |
+|K-means|0.46|           |          |           |          |           |          |  |
+|Random forest algorithm|0.96|           |          |           |          |           |          |  |
+|AdaBoost|0.98|           |          |           |          |           |          |  |
+|Neural-Network|0.95|           |          |           |          |           |          |  |
+|XGBoost|0.98|           |          |           |          |           |          |  |
+|Gradient Boosting|0.96|           |          |           |          |           |          |  |
 
 ### Brain stroke 
 A stroke occurs when blood flow to an area of the brain is interrupted or reduced, depriving brain tissue of oxygen and nutrients. Brain cells begin to die within minutes. A stroke is a medical emergency, and prompt treatment is crucial. Early action can reduce brain damage and other complications.
 
-| Algorithm | Accuracy |
-|-----------|----------|
-| QDA |0.55 |
-| KNN | 0.97|
-| SVM | 0.77 |
-| Decision tree| 0.97 |
-|LDA|0.77|
-|Naive Bayes algorithm|0.64|
-|K-means|0.62|
-|Random forest algorithm|0.99|
-|AdaBoost|0.82|
-|LSTM|0.76|
-|XGBoost|0.97|
-|Gradient Boosting|0.84|
+| Algorithm | Accuracy | K-Fold    | RMSE     |MAE        | R2       |    Recall |Precision |F1|
+|-----------|----------|-----------|----------|-----------|----------|-----------|----------|--|
+| QDA |0.55 |           |          |           |          |           |          |  |
+| KNN | 0.97|           |          |           |          |           |          |  |
+| SVM | 0.77 |           |          |           |          |           |          |  |
+| Decision tree| 0.97 |           |          |           |          |           |          |  |
+|LDA|0.77|           |          |           |          |           |          |  |
+|Naive Bayes algorithm|0.64|           |          |           |          |           |          |  |
+|K-means|0.62|           |          |           |          |           |          |  |
+|Random forest algorithm|0.99|           |          |           |          |           |          |  |
+|AdaBoost|0.82|           |          |           |          |           |          |  |
+|LSTM|0.76|           |          |           |          |           |          |  |
+|XGBoost|0.97|           |          |           |          |           |          |  |
+|Gradient Boosting|0.84|           |          |           |          |           |          |  |
 
 Dependencies
 ------------
