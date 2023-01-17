@@ -10,7 +10,7 @@ Algorithm used and its accuracy table is given below.
 | QDA       |0.95 |           |          |           |          |           |          |  |
 | KNN | 0.70|           |          |           |          |           |          |  |
 | SVM | 0.95 |           |          |           |          |           |          |  |
-| Decision tree| 0.80 |           |          |           |          |           |          |  |
+| LSTM| 0.80 |           |          |           |          |           |          |  |
 |LDA|0.825|0.75 (+/- 0.34)|0.44|0.2|0.19|0.88|0.72|0.79|
 |Naive Bayes algorithm|0.80|0.75 (+/- 0.34)|0.44|0.2|0.19|0.55|1.0|0.71|
 |Decision tree|0.88|0.80 (+/- 0.25)|0.44|0.2|0.19|0.66|0.85|0.75|
