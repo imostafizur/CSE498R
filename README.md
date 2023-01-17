@@ -7,10 +7,9 @@ Algorithm used and its accuracy table is given below.
 
 | Algorithm | Accuracy | K-Fold    | RMSE     |MAE        | R2       |    Recall |Precision |F1|
 |-----------|----------|-----------|----------|-----------|----------|-----------|----------|--|
-| QDA       |0.95 |           |          |           |          |           |          |  |
-| KNN | 0.70|           |          |           |          |           |          |  |
-| SVM | 0.95 |           |          |           |          |           |          |  |
-| LSTM| 0.80 |           |          |           |          |           |          |  |
+| QDA |0.95 |0.80 (+/- 0.41)|0.22|0.05|0.79|1.0|0.9 |0.94|
+| KNN | 0.70|0.70 (+/- 0.40)|0.54|0.3|-0.21|0.66|0.66|0.66|
+| SVM | 0.95 |0.72 (+/- 0.38)|0.22|0.05|0.79|0.88|1.0|0.94|
 |LDA|0.825|0.75 (+/- 0.34)|0.44|0.2|0.19|0.88|0.72|0.79|
 |Naive Bayes algorithm|0.80|0.75 (+/- 0.34)|0.44|0.2|0.19|0.55|1.0|0.71|
 |Decision tree|0.88|0.80 (+/- 0.25)|0.44|0.2|0.19|0.66|0.85|0.75|
@@ -20,33 +19,7 @@ Algorithm used and its accuracy table is given below.
 |XGBoost|0.90|0.80 (+/- 0.31)|0.38|0.15|0.39|0.88|0.8|0.84|
 |Gradient Boosting|0.88|0.80 (+/- 0.35)|0.38|0.15|0.39|0.88|0.8|0.84|
 
-Best model is QDA and Random forest algorithm. Those model other parameters :
-
-#### SVM
-
-| Metric      | Score       |
-|-------------|-------------|
-| RMSE        | 0.2236068   |
-| MAE         | 0.05        |
-| Recall      | 0.8888889   |
-| Precision   | 1.0         |
-| F1          | 0.9411765   |
-| R2          | 0.7979798   |
-| k-fold Accuracy | 0.72 (+/- 0.38) |
-
-#### QDA
-
-| Metric      | Score       |
-|-------------|-------------|
-| RMSE        | 0.2236068   |
-| MAE         | 0.05        |
-| Recall      | 1.0         |
-| Precision   | 0.9         |
-| F1          | 0.9473684   |
-| R2          | 0.7979798   |
-| k-fold Accuracy | 0.80 (+/- 0.41) |
-
-So the model is QDA.
+Best model is QDA with 95% accuracy.
 
 ### Diabetes
 Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesn’t make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn’t reach your cells.
@@ -59,38 +32,14 @@ Algorithm  used and its accuracy table is given below.
 | KNN | 0.74 |0.70 (+/- 0.40)|0.54|0.30|-0.21|0.66|0.66|0.66|
 | SVM | 0.83 |0.72 (+/- 0.38)|0.22|0.05|0.79|0.88|1.0|0.94|
 | QDA | 0.77 |0.80 (+/- 0.41)|0.22|0.05|0.79|1.0|0.9|0.94|
-|LDA|0.825|           |          |           |          |           |          |  |
+|LDA|0.825|0.82 (+/- 0.10)|0.41|0.17|0.29|           |          |  |
 |Naive Bayes algorithm|0.80|           |          |           |          |           |          |  |
-| Decision tree|0.88|           |          |           |          |           |          |  |
-|Random forest algorithm|0.93|           |          |           |          |           |          |  |
+|Decision tree|0.88|           |          |           |          |           |          |  |
+|Random forest algorithm|0.93|86%|0.30|0.09|0.61|0.95|0.87|0.91|
 |AdaBoost|0.83|           |          |           |          |           |          |  |
 |k-means clustering|0.58|           |          |           |          |           |          |  |
-|XGBoost|0.90|           |          |           |          |           |          |  |
+|XGBoost|0.90|82.37 %|0.30|0.09|0.61|0.87|0.87|0.91|
 |Gradient Boosting|0.88|           |          |           |          |           |          |  |
-
-#### Random Forest Algorithm  
-
-| Metric       | Value         |
-| ------------ |:-------------:|
-| RMSE         | 0.3082207001484488 |
-| MAE          | 0.095 |
-| R2           | 0.6193910256410255 |
-| Recall       | 0.9519230769230769 |
-| Precision    | 0.8761061946902655 |
-| F1           | 0.9124423963133641 |
-|K- fold Accuracy| 86%|
-
-#### XGBOOST
-
-| Metric       | Value         |
-| ------------ |:-------------:|
-| RMSE         | 0.3082207001484488 |
-| MAE          | 0.095 |
-| R2           | 0.6193910256410255 |
-| Recall       | 0.9519230769230769 |
-| Precision    | 0.8761061946902655 |
-| F1           | 0.9124423963133641 |
-| K-Fold cross val | 82.37 % |
 
 
 ### Heart Disease
