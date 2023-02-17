@@ -1,10 +1,11 @@
-# CSE498R
+# CSE499A-499B-498R-NASA Apace Apps Challenge
+
 ### Brain Tumor Segmentation using MRI Images
 ![](Image/Brain.gif)
 ### Penumonia Detection using Chest X-Ray Images
 ![](Image/Pneumonia.gif)
 
-### Malariya Detection using Blood Cell Images
+### Malaria Detection using Blood Cell Images
 ![](Image/Malaria.gif)
 ### Model Accuracy Table 
 Tumor Segmentation VGG19 Resnet50 InceptionV3 InceptionResnetV2 Efficientnet-B7
