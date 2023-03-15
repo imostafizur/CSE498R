@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap CSS cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Document</title>
+
+    <style>
+        .styled {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .styled:hover {
+            background-color: rgba(255, 0, 0, 1);
+        }
+
+        .styled:active {
+            box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+        }
+
+    </style>
+</head>
+<body>
+
+    <section>
+        <div class="container">
+            <h3>Diabetes Enquiry</h3>
+            <table class="table table-bordered table-dark">
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>pregnancies</th>
+                        <th>glucose</th>
+                        <th>bp</th>
+                        <th>st</th>
+                        <th>Insulin</th>
+                        <th>bmi</th>
+                        <th>dpf</th>
+                        <th>age</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                {% for a in data1 %}
+                <tbody>
+                    <tr>
+                        <td>{{request.user}}</td>
+                        <td>{{a.pregnancies}}</td>
+                        <td>{{a.glucose}}</td>
+                        <td>{{a.bp}}</td>
+                        <td>{{a.st}}</td>
+                        <td>{{a.insulin}}</td>
+                        <td>{{a.bmi}}</td>
+                        <td>{{a.dpf}}</td>
+                        <td>{{a.age}}</td>
+                        <td>{{a.result}}</td>
+                    </tr>
+                </tbody>
+                {% endfor %}
+            </table>
+            <br>
+        
+
+      
+            <h3>Heart Disease Enquiry</h3>
+            <table class="table table-bordered table-dark">
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>CP</th>
+                        <th>TrestBPS</th>
+                        <th>Cholestorel</th>
+                        <th>FBS</th>
+                        <th>Rest ECG</th>
+                        <th>thalach</th>
+                        <th>Exang</th>
+                        <th>Old Peak</th>
+                        <th>Slope</th>
+                        <th>CA</th>
+                        <th>Thal</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                {% for a in data2 %}
+                <tbody>
+                    <tr>
+                        <td>{{request.user}}</td>
+                        <td>{{a.age}}</td>
+                        <td>{{a.gender}}</td>
+                        <td>{{a.cp}}</td>
+                        <td>{{a.trestbps}}</td>
+                        <td>{{a.chol}}</td>
+                        <td>{{a.fbs}}</td>
+                        <td>{{a.restecg}}</td>
+                        <td>{{a.thalach}}</td>
+                        <td>{{a.exang}}</td>
+                        <td>{{a.oldpeak}}</td>
+                        <td>{{a.slope}}</td>
+                        <td>{{a.ca}}</td>
+                        <td>{{a.thal}}</td>
+                        <td>{{a.result}}</td>
+                    </tr>
+                </tbody>
+                {% endfor %}
+            </table>
+
+            <h3>Parkinson Disease Enquiry</h3>
+            <table class="table table-bordered table-dark">
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Fo</th>
+                        <th>Fhi</th>
+                        <th>Flo</th>
+                        <th>Jitter_p</th>
+                        <th>jitter_a</th>
+                        <th>RAP</th>
+                        <th>PPQ ECG</th>
+                        <th>DDp</th>
+                        <th>Shimmer</th>
+                        <th>Shimmer_db</th>
+                        <th>APQ3</th>
+                        <th>APQ5</th>
+                        <th>APQ</th>
+                        <th>DDA</th>
+                        <th>NHR</th>
+                        <th>HNR</th>
+                        <th>RPDE</th>
+                        <th>DFA</th>
+                        <th>spread1</th>
+                        <th>spread2</th>
+                        <th>D2</th>
+                        <th>PPE</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                {% for a in data3 %}
+                <tbody>
+                    <tr>
+                        <td>{{request.user}}</td>
+                        <td>{{a.fo}}</td>
+                        <td>{{a.fhi}}</td>
+                        <td>{{a.flo}}</td>
+                        <td>{{a.jitter_p}}</td>
+                        <td>{{a.jitter_a}}</td>
+                        <td>{{a.RAP}}</td>
+                        <td>{{a.PPQ}}</td>
+                        <td>{{a.DDP}}</td>
+                        <td>{{a.shimmer}}</td>
+                        <td>{{a.shimmer_db}}</td>
+                        <td>{{a.APQ3}}</td>
+                        <td>{{a.APQ5}}</td>
+                        <td>{{a.APQ}}</td>
+                        <td>{{a.DDA}}</td>
+                        <td>{{a.NHR}}</td>
+                        <td>{{a.HNR}}</td>
+                        <td>{{a.RPDE}}</td>
+                        <td>{{a.DFA}}</td>
+                        <td>{{a.spread1}}</td>
+                        <td>{{a.spread2}}</td>
+                        <td>{{a.D2}}</td>
+                        <td>{{a.PPE}}</td>
+                        <td>{{a.result}}</td>
+                    </tr>
+                </tbody>
+                {% endfor %}
+            </table>
+            <br>
+
+            <h3>Brain Stroke Enquiry</h3>
+            <table class="table table-bordered table-dark">
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>gender</th>
+                        <th>age</th>
+                        <th>hypertension</th>
+                        <th>heart_disease</th>
+                        <th>married</th>
+                        <th>work_type</th>
+                        <th>residence_type</th>
+                        <th>avg_glucose_level</th>
+                        <th>bmi</th>
+                        <th>smoking_status</th>
+                        <th>result</th>
+                    </tr>
+                </thead>
+                {% for a in data4 %}
+                <tbody>
+                    <tr>
+                        <td>{{request.user}}</td>
+                        <td>{{a.gender}}</td>
+                        <td>{{a.age}}</td>
+                        <td>{{a.hypertension}}</td>
+                        <td>{{a.heart_disease}}</td>
+                        <td>{{a.married}}</td>
+                        <td>{{a.work_type}}</td>
+                        <td>{{a.residence_type}}</td>
+                        <td>{{a.avg_glucose_level}}</td>
+                        <td>{{a.bmi}}</td>
+                        <td>{{a.smoking_status}}</td>
+                        <td>{{a.result}}</td>
+                    </tr>
+                </tbody>
+                {% endfor %}
+            </table>
+
+            <h3>Lung Cancer Enquiry</h3>
+            <table class="table table-bordered table-dark">
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>age</th>
+                        <th>smoking</th>
+                        <th>yellow_fingers</th>
+                        <th>anxiety</th>
+                        <th>peer_pressure</th>
+                        <th>chronic_disease</th>
+                        <th>fatigue</th>
+                        <th>allergy</th>
+                        <th>wheezing</th>
+                        <th>alcohol_consuming</th>
+                        <th>coughing</th>
+                        <th>sob</th>
+                        <th>swalling_difficulty</th>
+                        <th>chest_pain</th>
+                        <th>result</th>
+                    </tr>
+                </thead>
+                {% for a in data5 %}
+                <tbody>
+                    <tr>
+                        <td>{{request.user}}</td>
+                        <td>{{a.age}}</td>
+                        <td>{{a.smoking}}</td>
+                        <td>{{a.yellow_fingers}}</td>
+                        <td>{{a.anxiety}}</td>
+                        <td>{{a.peer_pressure}}</td>
+                        <td>{{a.chronic_disease}}</td>
+                        <td>{{a.fatigue}}</td>
+                        <td>{{a.allergy}}</td>
+                        <td>{{a.wheezing}}</td>
+                        <td>{{a.alcohol_consuming}}</td>
+                        <td>{{a.coughing}}</td>
+                        <td>{{a.sob}}</td>
+                        <td>{{a.swalling_difficulty}}</td>
+                        <td>{{a.chest_pain}}</td>
+                        <td>{{a.result}}</td>
+                    </tr>
+                </tbody>
+                {% endfor %}
+            </table>
+        </div>
+    </section>
+    
+       
+</body>
+</html>

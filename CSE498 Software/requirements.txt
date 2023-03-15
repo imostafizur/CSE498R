@@ -1,0 +1,242 @@
+absl-py===1.2.0
+aiohttp===3.8.3
+aiosignal===1.3.1
+altair===4.2.0
+anyio===3.6.1
+argon2-cffi===21.3.0
+argon2-cffi-bindings===21.2.0
+asgiref===3.5.2
+astroid===2.12.9
+asttokens===2.0.8
+astunparse===1.6.3
+async-timeout===4.0.2
+attrs===22.1.0
+autopep8===1.7.0
+Babel===2.10.3
+backcall===0.2.0
+beautifulsoup4===4.11.1
+bert===2.2.0
+bert-for-tf2===0.14.9
+bleach===5.0.1
+blinker===1.5
+blis===0.7.8
+cachetools===5.2.0
+catalogue===2.0.8
+certifi===2022.6.15.1
+cffi===1.15.1
+chardet===5.0.0
+charset-normalizer===2.1.1
+ChatterBot===1.0.4
+chatterbot-corpus===1.2.0
+click===8.1.3
+CoCa-pytorch===0.0.6
+colorama===0.4.5
+commonmark===0.9.1
+comtypes===1.1.14
+confection===0.0.2
+cycler===0.11.0
+cymem===2.0.6
+Cython===0.29.28
+datasets===2.7.1
+debugpy===1.6.3
+decorator===5.1.1
+defusedxml===0.7.1
+dill===0.3.6
+distlib===0.3.6
+Django===4.1.1
+einops===0.4.1
+entrypoints===0.4
+erlastic===2.0.0
+et-xmlfile===1.1.0
+executing===1.0.0
+fastjsonschema===2.16.1
+filelock===3.8.0
+Flask===2.2.2
+flatbuffers=== 2.0.7
+fonttools  === 4.37.1
+frozenlist === 1.3.3
+fsspec     === 2022.11.0
+gast       === 0.4.0
+gensim     === 4.2.0
+gitdb      === 4.0.9
+GitPython  === 3.1.27
+google-auth=== 2.11.0
+google-auth-oauthlib === 0.4.6
+google-pasta         === 0.2.0
+gpt-2-simple         === 0.8.1
+grpcio               === 1.49.0
+h5py                 === 3.7.0
+huggingface-hub      === 0.10.0
+idna                 === 3.3
+imbalanced-learn     === 0.9.1
+imblearn             === 0.0
+importlib-metadata   === 4.12.0
+ipykernel            === 6.15.2
+ipython              === 8.5.0
+ipython-genutils     === 0.2.0
+isort                === 5.10.1
+itsdangerous         === 2.1.2
+jedi                 === 0.18.1
+Jinja2               === 3.1.2
+joblib               === 1.1.0
+json5                === 0.9.10
+jsonschema           === 4.16.0
+jupyter_client       === 7.3.5
+jupyter-core         === 4.11.1
+jupyter-server       === 1.18.1
+jupyterlab           === 3.4.7
+jupyterlab-pygments  === 0.2.2
+jupyterlab_server    === 2.15.1
+keras                === 2.10.0
+Keras-Preprocessing  === 1.1.2
+kiwisolver           === 1.4.4
+langcodes            === 3.3.0
+lazy-object-proxy    === 1.7.1
+libclang             === 14.0.6
+lxml                 === 4.9.1
+Markdown             === 3.4.1
+MarkupSafe           === 2.1.1
+mathparse            === 0.1.2
+matplotlib           === 3.5.3
+matplotlib-inline    === 0.1.6
+mccabe               === 0.7.0
+mistune              === 2.0.4
+multidict            === 6.0.2
+multiprocess         === 0.70.14
+murmurhash           === 1.0.8
+nbclassic            === 0.4.3
+nbclient             === 0.6.8
+nbconvert            === 7.0.0
+nbformat             === 5.5.0
+nest-asyncio         === 1.5.5
+nltk                 === 3.7
+nnfs                 === 0.5.1
+notebook             === 6.4.12
+notebook-shim        === 0.1.0
+numpy                === 1.23.3
+oauthlib             === 3.2.1
+openai               === 0.23.0
+opencv-python        === 4.6.0.66
+openpyxl             === 3.0.10
+opt-einsum           === 3.3.0
+packaging            === 21.3
+pandas               === 1.4.4
+pandas-stubs         === 1.4.4.220906
+pandocfilters        === 1.5.0
+params-flow          === 0.8.2
+parso                === 0.8.3
+pathy                === 0.6.2
+pickle-mixin         === 1.0.2
+pickleshare          === 0.7.5
+Pillow               === 9.2.0
+Pint                 === 0.19.2
+pip                  === 22.3.1
+plac                 === 1.3.5
+platformdirs         === 2.5.2
+preshed              === 3.0.7
+prometheus-client    === 0.14.1
+prompt-toolkit       === 3.0.31
+protobuf             === 3.19.5
+psutil               === 5.9.2
+pure-eval            === 0.2.2
+py-params            === 0.10.2
+pyarrow              === 9.0.0
+pyasn1               === 0.4.8
+pyasn1-modules       === 0.2.8
+pycodestyle          === 2.9.1
+pycparser            === 2.21
+pycryptodome         === 3.15.0
+pydantic             === 1.9.2
+pydeck               === 0.8.0b3
+Pygments             === 2.13.0
+pylint               === 2.15.2
+pymongo              === 3.12.3
+Pympler              === 1.0.1
+pyparsing            === 3.0.9
+pypiwin32            === 223
+pyrsistent           === 0.18.1
+python-datastructure === 0.1.3
+python-dateutil      === 2.8.2
+pyttsx3              === 2.90
+pytz                 === 2022.2.1
+pytz-deprecation-shim === 0.1.0.post0
+pywin32               === 304
+pywinpty              === 2.0.8
+PyYAML                === 5.4.1
+pyzmq                 === 23.2.1
+regex                 === 2022.9.13
+requests              === 2.28.1
+requests-oauthlib     === 1.3.1
+responses             === 0.18.0
+rich                  === 12.5.1
+rsa                   === 4.9
+scikit-learn          === 1.1.2
+scipy                 === 1.9.1
+seaborn               === 0.12.0
+semver                === 2.13.0
+Send2Trash            === 1.8.0
+sentencepiece         === 0.1.97
+setuptools            === 65.5.0
+six                   === 1.16.0
+sklearn               === 0.0
+smart-open            === 5.2.1
+smmap                 === 5.0.0
+sniffio               === 1.3.0
+soupsieve             === 2.3.2.post1
+spacy                 === 3.4.1
+spacy-legacy          === 3.0.10
+spacy-loggers         === 1.0.3
+SQLAlchemy            === 1.2.19
+sqlparse              === 0.4.3
+srsly                 === 2.4.4
+stack-data            === 0.5.0
+streamlit             === 1.12.2
+tabulate              === 0.9.0
+tensorboard           === 2.10.0
+tensorboard-data-server === 0.6.1
+tensorboard-plugin-wit  === 1.8.1
+tensorflow              === 2.10.0
+tensorflow-estimator    === 2.10.0
+tensorflow-hub          === 0.12.0
+tensorflow-io-gcs-filesystem === 0.27.0
+tensorflow-text ===  2.10.0
+termcolor       ===  2.0.1
+terminado       ===  0.15.0
+textblob        ===  0.17.1
+thinc           ===  8.1.2
+threadpoolctl   ===  3.1.0
+tinycss2        ===  1.1.1
+tokenizer       ===  3.4.1
+tokenizers      ===  0.12.1
+toml            ===  0.10.2
+tomli           ===  2.0.1
+tomlkit         ===  0.11.4
+toolz           ===  0.12.0
+toposort        ===  1.7
+torch           ===  1.12.1
+torchinfo       ===  1.7.1
+tornado         ===  6.2
+tqdm            ===  4.64.1
+traitlets       ===  5.4.0
+transformers    ===  4.22.2
+typer           ===  0.4.2
+types-pytz      ===  2022.2.1.0
+typing_extensions ===  4.3.0
+tzdata            ===  2022.2
+tzlocal           ===  4.2
+urllib3           ===  1.26.12
+validators        ===  0.20.0
+virtualenv        ===  20.16.5
+wasabi            ===  0.10.1
+watchdog          ===  2.1.9
+wcwidth           ===  0.2.5
+webencodings      ===  0.5.1
+websocket-client  ===  1.4.1
+Werkzeug          ===  2.2.2
+wheel             ===  0.37.1
+wrapt             ===  1.14.1
+xgboost           ===  1.7.1
+xxhash            ===  3.1.0
+yarl              ===  1.8.1
+zipp              ===  3.8.1
+

@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+
+    <style>
+        body{
+            background-image : url('/static/images/hero.png')
+        }
+        
+    </style>
+
+<body>
+    <div class="result">
+        <h1 style="text-align:center">This is The Result Page</h1>
+        {% if ans == 0 %}
+            <h4 style="color:chartreuse; text-align:center; font-size:30px">No Stroke</h4>
+        {% else %}
+            <h4 style="color:rgb(190, 3, 3); text-align:center;" >Stroke Detected</h4>
+        {% endif %}
+    </div>
+</body>
+</html>
+
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+
+id
+gender
+age
+hypertension
+heart_disease
+ever_married
+work_type
+Residence_type
+avg_glucose_level
+bmi
+smoking_status
