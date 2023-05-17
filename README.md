@@ -52,8 +52,8 @@ Algorithm used and its accuracy table is given below.
 | Decision Tree | 0.79 |          |          |           |          |           |          |  |
 | KNN | 0.74 |          |          |           |          |           |          |  |
 | SVM | 0.83 |          |          |           |          |           |          |  |
-| QDA | 0.84 |          |          |           |          |           |          |  |
-|LDA|0.84|          |          |           |          |           |          |  |
+| QDA | 0.84 |          |0.40|0.16| 0.33|0.91|0.81|0.86|
+|LDA|0.84|0.82 (+/- 0.12)|0.40|0.16|0.33|0.91| 0.81|0.86|
 |Naive Bayes algorithm|0.81|          |          |           |          |           |          |  |
 |LSTM |0.81|          |          |           |          |           |          |  |
 |Random forest algorithm|0.82|          |          |           |          |           |          |  |
@@ -62,26 +62,6 @@ Algorithm used and its accuracy table is given below.
 |XGBoost|0.80|          |          |           |          |           |          |  |
 |Gradient Boosting|0.80|          |          |           |          |           |          |  |
 
-#### QDA
-| Metric | Value |
-|--------|-------|
-| RMSE   | 0.40488816508945796 |
-| MAE    | 0.16393442622950818 |
-| R2     | 0.33551198257080617 |
-| Recall | 0.9117647058823529 |
-| Precision | 0.8157894736842105 |
-| F1     | 0.861111111111111 |
-
-#### LDA
-| Metric | Value |
-|--------|-------|
-| RMSE   | 0.40488816508945796 |
-| MAE    | 0.16393442622950818 |
-| R2     | 0.33551198257080617 |
-| Recall | 0.9117647058823529 |
-| Precision | 0.8157894736842105 |
-| F1     | 0.861111111111111 |
-|K-fold|0.82 (+/- 0.12)|
 ### LUNG Cancer
 Lung cancer is a type of cancer that starts in the lungs. The lungs are two spongy organs in the chest that take in oxygen when you breathe and release carbon dioxide when you exhale. Lung cancer can start in different parts of the lungs. The most common type of lung cancer is non-small cell lung cancer (NSCLC). NSCLC is divided into two main types: squamous cell carcinoma and adenocarcinoma. The other main type of lung cancer is small cell lung cancer (SCLC).
 
