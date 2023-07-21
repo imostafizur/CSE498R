@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'common-disease.css' %}">
+</head>
+<body>
+    <form action="{% url 'result3' %}" method="post">
+        {% csrf_token %}
+        <div class="container">
+            <h1>
+                <center style="color:white;">Parkinson Disease Prediction</center>
+            </h1>
+            <hr>
+            <div class="dis">
+                <label class="label">Fo</label>
+                <input class="input" type="number" step="any" name="fo" placeholder="" />
+                <label class="label"> Fhi </label>
+                <input class="input" type="number" step="any" name="fhi" placeholder="" />
+                <label class="label">Flo</label>
+                <input class="input" type="number" step="any" name="flo" placeholder="" />
+                <label class="label"> Jitter_p </label>
+                <input class="input " type="number" step="any" name="jitter_p" placeholder="" />
+                <label class="label">  Jitter_a </label>
+                <input class="input" type="number" step="any" name="jitter_a" placeholder="" />
+                <label class="label"> RAP </label>
+                <input class="input" type="number" step="any" name="RAP" placeholder="" />
+                <label class="label">PPQ</label>
+                <input class="input" type="number" step="any" name="PPQ" placeholder="" />
+                <label class="label">DDP </label>
+                <input class="input" type="number" step="any" name="DDP" placeholder="" />
+                <label class="label">Shimmer</label>
+                <input class="input" type="number" step="any" name="shimmer" placeholder="" />
+                <label class="label">Shimmer_db </label>
+                <input class="input" type="number" step="any" name="shimmer_db" placeholder="" />
+                <label class="label">APQ3</label>
+                <input class="input" type="number" step="any" name="APQ3" placeholder="" />
+                <label class="label">APQ5</label>
+                <input class="input" type="number" step="any" name="APQ5" placeholder="" />
+                <label class="label">APQ</label>
+                <input class="input" type="number" step="any" name="APQ" placeholder="" />
+                <label class="label">DDA</label>
+                <input class="input" type="number" step="any" name="DDA" placeholder="" />
+                <label class="label">NHR</label>
+                <input class="input" type="number" step="any" name="NHR" placeholder="" />
+                <label class="label">HNR</label>
+                <input class="input" type="number" step="any" name="HNR" placeholder="" />
+                <label class="label">RPDE</label>
+                <input class="input" type="number" step="any" name="RPDE" placeholder="" />
+                <label class="label">DFA</label>
+                <input class="input" type="number" step="any" name="DFA" placeholder="" />
+                <label class="label">spread1</label>
+                <input class="input" type="number" step="any" name="spread1" placeholder="" />
+                <label class="label">spread2</label>
+                <input class="input" type="number" step="any" name="spread2" placeholder="" />
+                <label class="label">D2</label>
+                <input class="input" type="number" step="any" name="D2" placeholder="" />
+                <label class="label">PPE</label>
+                <input class="input" type="number" step="any" name="PPE" placeholder="" />
+                
+            </div>
+            <br><br>
+
+            <!-- <button type="submit" class="registerbtn">Submit</button> -->
+            <input type="submit" value="submit" class="registerbtn">
+    </form>
+    <br><br>
+</body>
+</html>
+

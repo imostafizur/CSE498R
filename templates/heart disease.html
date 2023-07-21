@@ -1,0 +1,59 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'common-disease.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Medical Diagnosis</title>
+</head>
+<body>
+    <form action="{% url 'result2' %}"  method="post">
+        {% csrf_token %}
+        <div class="container">
+            <h1><center style="color: white;">Heart Disease Prediction</center></h1>
+            <hr>
+            <div class="dis">
+                <label class="label">Age</label>
+                <input class="input" type="number"  step="0.01" name="age" placeholder="" />
+                <label class="label"> Gender</label>
+                <input class="input " type="number"  step="0.01" name="gender" placeholder="0 for Male and 1 for Female" />
+                <label class="label"> CP </label>
+                <input class="input" type="number" step="0.01" name="cp"  placeholder="" />
+                <label class="label">TrestBPS </label>
+                <input class="input" type="number"  step="0.01" name="trestbps" placeholder="" />
+                <label class="label"> Cholestorel </label>
+                <input class="input" type="number"  step="0.01" name="chol" placeholder="" />
+                <label class="label"> FBS </label>
+                <input class="input" type="number"  step="0.01" name="fbs" placeholder="" />
+                <label class="label">Rest ECG </label>
+                <input class="input" type="number"  step="0.01" name="restecg" placeholder="" />
+                <label class="label">thalach </label>
+                <input class="input" type="number"  step="0.01" name="thalach" placeholder="" />
+                <label class="label">Exang </label>
+                <input class="input" type="number"  step="0.01" name="exang" placeholder="" />
+                <label class="label">Old Peak </label>
+                <input class="input" type="number"  step="0.01" name="oldpeak" placeholder="" />
+                <label class="label">Slope </label>
+                <input class="input" type="number"  step="0.01" name="slope" placeholder="" />
+                <label class="label">CA </label>
+                <input class="input" type="number"  step="0.01" name="ca" placeholder="" />
+                <label class="label">Thal </label>
+                <input class="input" type="number"  step="0.01" name="thal" placeholder="" />
+
+            </div>
+            <br><br>
+
+            <button type="submit" class="registerbtn">Submit</button>
+            63	1	3	145	233	1	0	150	0	2.3	0	0	1	1 <br>
+
+            56	1	1	120	236	0	1	178	0	0.8	2	0	2	1
+    </form>
+</body>
+</html>
+
+

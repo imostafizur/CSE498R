@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+
+    <style>
+        body{
+            background-image : url('/static/images/hero.png')
+        }
+        
+    </style>
+
+<body>
+    <div class="result">
+        <h1 style="text-align:center">This is The Result Page</h1>
+        {% if ans == 0 %}
+            <h1>{{ans}}</h1>
+            <h4 style="color:chartreuse; text-align:center; font-size:30px">No Stroke</h4>
+        {% else %}
+            <h4 style="color:rgb(190, 3, 3); text-align:center;" >Stroke Detected</h4>
+        {% endif %}
+
+        <!-- <h1>{{result}}</h1> -->
+    </div>
+</body>
+</html>
+
+{% endblock content %}
