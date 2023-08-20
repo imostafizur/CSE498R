@@ -26,20 +26,21 @@ Diabetes is a disease that occurs when your blood glucose, also called blood sug
 
 Algorithm  used and its accuracy table is given below.
 
-| Algorithm | Accuracy | K-Fold    | RMSE     |MAE        | R2       |    Recall |Precision |F1|
-|-----------|----------|-----------|----------|-----------|----------|-----------|----------|--|
-| Decision Tree | 0.79 |0.71 (+/- 0.35)|0.44|0.20|0.19|0.66|0.85|0.75|
-| KNN | 0.74 |0.70 (+/- 0.40)|0.54|0.30|-0.21|0.66|0.66|0.66|
-| SVM | 0.83 |0.72 (+/- 0.38)|0.22|0.05|0.79|0.88|1.0|0.94|
-| QDA | 0.77 |0.80 (+/- 0.41)|0.22|0.05|0.79|1.0|0.9|0.94|
-|LDA|0.825|0.82 (+/- 0.10)|0.41|0.17|0.29|0.83|0.82|0.83|
-|Naive Bayes algorithm|0.80|0.83 (+/- 0.09)|0.44| 0.19|0.21|0.78|0.82|0.80|
-|Decision tree|   0.88   | 0.82 (+/- 0.08) | 0.4795832 |   0.23   | 0.0785256|   0.75   |  0.7959184| 0.7722772 |
-|Random forest algorithm|0.93|86%|0.30|0.09|0.61|0.95|0.87|0.91|
-| AdaBoost  |   0.83   | 0.83 (+/- 0.08) | 0.4123106 |   0.17   | 0.3189103| 0.8461538| 0.8301887| 0.8380952 |
-| k-means clustering |   0.58   | 0.82 (+/- 0.11) | 0.7615773 |   0.58   | -1.3237179| 0.6730769| 0.4605263| 0.546875 |
-|XGBoost|0.90|82.37 %|0.30|0.09|0.61|0.87|0.87|0.91|
-| Gradient Boosting  |   0.88   | 0.82 (+/- 0.07) | 0.3464102 |   0.12   | 0.5192308 | 0.9230769| 0.8571429| 0.8888889|
+| Algorithm              | Accuracy |   K-Fold   |   RMSE   |   MAE   |    R2   |  Recall | Precision |    F1    |
+|------------------------|----------|------------|----------|---------|---------|---------|-----------|---------|
+| Decision Tree          |   0.79   |  0.71 (+/- 0.35) |   0.44   |   0.20  |   0.19  |   0.66  |   0.85    |   0.75  |
+| KNN                    |   0.74   |  0.70 (+/- 0.40) |   0.54   |   0.30  |  -0.21  |   0.66  |   0.66    |   0.66  |
+| SVM                    |   0.83   |  0.72 (+/- 0.38) |   0.22   |   0.05  |   0.79  |   0.88  |   1.00    |   0.94  |
+| QDA                    |   0.77   |  0.80 (+/- 0.41) |   0.22   |   0.05  |   0.79  |   1.00  |   0.90    |   0.94  |
+| LDA                    |   0.83   |  0.82 (+/- 0.10) |   0.41   |   0.17  |   0.29  |   0.83  |   0.82    |   0.83  |
+| Naive Bayes Algorithm  |   0.80   |  0.83 (+/- 0.09) |   0.44   |   0.19  |   0.21  |   0.78  |   0.82    |   0.80  |
+| Decision Tree          |   0.88   |  0.82 (+/- 0.08) |   0.48   |   0.23  |   0.08  |   0.75  |   0.80    |   0.77  |
+| Random Forest          |   0.93   |  0.86 (+/- 0.00) |   0.30   |   0.09  |   0.61  |   0.95  |   0.87    |   0.91  |
+| AdaBoost               |   0.83   |  0.83 (+/- 0.08) |   0.41   |   0.17  |   0.32  |   0.85  |   0.83    |   0.84  |
+| K-Means Clustering     |   0.58   |  0.82 (+/- 0.11) |   0.76   |   0.58  |  -1.32  |   0.67  |   0.46    |   0.55  |
+| XGBoost                |   0.90   |  82.37 %    |   0.30   |   0.09  |   0.61  |   0.87  |   0.87    |   0.91  |
+| Gradient Boosting      |   0.88   |  0.82 (+/- 0.07) |   0.35   |   0.12  |   0.52  |   0.92  |   0.86    |   0.89  |
+
 
 ### Heart Disease
 Heart disease is a general term that describes several types of heart conditions. The most common type of heart disease is coronary artery disease, which occurs when the blood vessels that supply blood to the heart become narrowed or blocked by a buildup of plaque. This buildup of plaque is called atherosclerosis. Atherosclerosis can occur in any blood vessel, but it most commonly affects the arteries that supply blood to the heart, brain, and legs.
