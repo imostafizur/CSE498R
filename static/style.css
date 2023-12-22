@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+}
+
+#btp {
+  height: 500px;
+  background-image: url("/static/images/biography-bg.png");
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#disease-select {
+  height: 650px;
+  width: 100%;
+  background-image: url("/static/images/ai_face.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#welcome {
+  color: red;
+  background-color: white;
+  border-radius: 5%;
+  font-weight: 900;
+  font-size: 15px;
+  /* opacity: 0.1; */
+}
+.font {
+  font-weight: 600;
+  color: black;
+}
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}

@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+<!-- Introductin -->
+<div class="container my-5 " id="btp">
+  <div class="row">
+    <div class="col-md-7" id="aii">
+      <img src="{% static 'images/ai-chip-intellingence5.jpg' %}" width="650px"
+        style="margin-left:0px; border-radius: 50%;" alt="">
+    </div>
+    <div class="col-md-5 pt-lg-5">
+      <div class="">
+        <h2>Explore the possibilities of combination of <br><span style="color:#fb9075" text-align="center">AI, ML, and
+            NN</span> </h2>
+        <br>
+        <p> A robust machine learning model that can efficiently predict the disease of a human, based on the symptoms
+          that he/she posses. Let us look into how we can approach this machine learning problem</p>
+        <button type="button" class="btn btn-success bg-gradient" style="padding:10px 80px; opacity: 0.7;">Info</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- quotation -->
+<div class="container ">
+  <blockquote class="blockquote text-center">
+    <p class="mb-0 fs-2 font-monospace badge bg-primary text-wrap">Predicting The Future Isn't Magic, It's Artificial
+      Intelligene</p><br><br>
+    <footer class="blockquote-footer">Dave Waters</footer>
+  </blockquote>
+</div>
+
+<!-- User Selection -->
+<section id="disease-select" class="form-floating container ">
+  <div class="row">
+    <div class="col-md-6">
+      <label for="">
+        <h3 class="p-3 mr-5 bg-danger text-white" style="--bs-bg-opacity: .6;">Medical Diagnosis</h3>
+      </label>
+      <br><br>
+
+      <ul class="txt_dec">
+        <li class="fs-3"><a class="text-decoration-none" href="{% url 'diabetes' %}">Diabetes</a></li>
+        <li class="fs-3"><a class="text-decoration-none" href="{% url 'heart-disease' %}">Heart Disease</a></li>
+        <li class="fs-3"><a class="text-decoration-none" href="{% url 'parkinson' %}">Parkinson</a></li>
+        <li class="fs-3"><a class="text-decoration-none" href="{% url 'brain-stroke' %}">Brain Stroke</a></li>
+        <li class="fs-3"><a class="text-decoration-none" href="{% url 'lung-cancer' %}">Lung Cancer</a></li>
+      </ul>
+
+
+    </div>
+
+    <div class="col-md-6">
+      <label for="">
+        <h3 class="p-3 mr-5 bg-success text-white" style="--bs-bg-opacity: .6;">Medical Imaging</h3>
+      </label>
+      <br><br>
+      <ul class="txt_dec">
+        <li class="fs-3"><a class="text-decoration-none" href="{% url 'tumor' %}">Brain Tumor</a></li>
+        <li class="fs-3"><a class="text-decoration-none" href="{% url 'malaria' %}">Malaria</a></li>
+        <li class="fs-3"><a class="text-decoration-none" href="{% url 'pneumonia' %}">Pneumonia</a></li>
+        <li class="fs-3"><a class="text-decoration-none">Alzheimers</a></li>
+        <li class="fs-3"><a class="text-decoration-none" href="{% url 'oct' %}">Optical coherence tomography (OCT)</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<br><br><br>
+
+<section class="form-floating container ">
+  <div class="row d-flex align-items-center">
+    <div class="col-md-6 ">
+      <small style="color: #DAA520; font-weight: bold">
+        Key features
+      </small>
+      <br>
+      <h1>Enable rich and conversational experiences with AI-powered capabilities</h1>
+      <p class="text-secondary">Contact Center AI offers natural interactions that redefine the possibilities of
+        AI-powered conversation.</p>
+    </div>
+    <div class="col-md-6">
+      <div class="container d-flex justify-content-end bd-highlight p-5" id="bot">
+        <iframe width="350" height="430" allow="microphone;"
+          src="https://console.dialogflow.com/api-client/demo/embedded/3fc62079-5745-44f5-8058-b3df6488a9e6">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+{% endblock content %}

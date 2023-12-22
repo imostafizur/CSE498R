@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'common-disease.css' %}">
+    <!-- <style>
+        .container {
+            padding: 50px;
+            background-image: linear-gradient(
+            to right,
+            #0e0430,
+            #0f0826
+        );
+            /* background-image: url('/static/images/hero.png'); */
+        }
+
+        .label {
+            color: #fc535a;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style> -->
+</head>
+<body>
+    <form action="{% url 'result4' %}" method="post">
+        {% csrf_token %}
+        <div class="container">
+            <h1>
+                <center style="color:white;">Brain Stroke Disease Prediction</center>
+            </h1>
+            <hr>
+            <div class="dis">
+                <label class="label"> Gender </label>
+                <input class="input" type="number" step="any" name="gender" placeholder="'Female'=0, 'Male'=1" />
+                <label class="label">Age</label>
+                <input class="input" type="number" name="age" placeholder="" />
+                <label class="label"> Hypertension </label>
+                <input class="input" type="number" step="0.01" name="hypertension" placeholder="" />
+                <label class="label">Heart Problem</label>
+                <input class="input" type="number" step="any" name="heart_disease" placeholder="" />
+                <label class="label">married</label>
+                <input class="input" type="number" name="married" placeholder="'Yes'=1, 'NO'=0" />
+                <label class="label">work type </label>
+                <input class="input" type="number" name="work_type" placeholder="'children':0,'Never_worked':1, 'Govt_job':2, 'Self-employed':3, 'Private':4" />
+                <label class="label">Residence</label>
+                <input class="input" type="number" name="residence_type" placeholder="'Urban'=1" />
+                <label class="label"> Glucose </label>
+                <input class="input " type="number" name="avg_glucose_level" step="0.01" placeholder="" />
+                <label class="label"> BMI </label>
+                <input class="input" type="number" step="any" name="bmi" step="0.01" placeholder="" />
+                <label class="label">smoking_status</label>
+                <input class="input" type="number" name="smoking_status" placeholder="'never smoked':0, 'formerly smoked':1, 'smokes':2, 'Unknown':3" />
+            </div>
+            <br><br>
+
+            <!-- <button type="submit" class="registerbtn">Submit</button> -->
+            <input type="submit" value="submit" class="registerbtn">
+    </form>
+    <br><br>
+</body>
+</html>
+

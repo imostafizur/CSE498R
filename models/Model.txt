@@ -1,0 +1,6 @@
+Mentioned model bellow will be here, the download link will be found in README.md.
+
+brain_tumor.h5
+malaria_resnet50.h5
+oct_model_efficientnet.h5
+Pneumonia.h5

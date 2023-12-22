@@ -1,0 +1,52 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#rong {
+  color: rgb(21, 113, 113);
+  opacity: 1;
+}
+.dis {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0 150px;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #ee0528;
+  color: white;
+  padding: 12px 0px;
+  margin: auto;
+  display: block;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.7;
+  font-size: 15px;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+
+.input {
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.container {
+  padding: 50px;
+  background-image: url("/static/images/input3.jpg");
+  height: 650px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.label {
+  color: #fcc953;
+  font-size: 20px;
+  font-weight: bold;
+}
