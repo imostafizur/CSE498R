@@ -4,3 +4,4 @@ joblib
 numpy
 keras
 Pillow
+openai
