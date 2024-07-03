@@ -1,0 +1,11 @@
+import gdown
+
+urls = [
+    "https://drive.google.com/uc?id=19CdCyR1lWmSZA7YTPzI2NrErlImeo617",
+    "https://drive.google.com/uc?id=1xkTadqRRWl7_m7O_aFMwQdeioEAIemtn",
+    "https://drive.google.com/uc?id=1lZVXkye4dvaJWgfp3wsb8zW8Ywi9dEUp",
+    "https://drive.google.com/uc?id=17DFBLhTNSJ6cPZ7Fc0ZH5Lyx4O-EiJv8"
+]
+
+for url in urls:
+    gdown.download(url, quiet=False)
